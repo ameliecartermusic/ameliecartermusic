@@ -22,9 +22,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Aclonica', sans-serif;
+    
     font-weight: 700;
-    margin:0;
 }
 
 .lead {
@@ -36,13 +35,14 @@ h6 {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
     padding-bottom: 50px;
     text-align: center;
-
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
-.intro-header, h1 {
+.intro-header h1 {
     color: #fff;
+    font-family: 'Aclonica', sans-serif;
+    margin-bottom:2em;
 }
 
 .intro-message {
@@ -77,6 +77,7 @@ h6 {
 
     ul.intro-social-buttons > li {
         display: block;
+        margin-top: 2em;
         margin-bottom: 20px;
         padding: 0;
     }
