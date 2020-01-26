@@ -996,7 +996,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: inherit;
+  font-family: 'Aclonica', sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
@@ -3879,10 +3879,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  height: 50px;
+  height: auto;
   padding: 15px 15px;
-  font-size: 32px;
-  line-height: 32px;
+  line-height: 40px;
   font-family: 'Aclonica', sans-serif;
 
 }
